@@ -1,0 +1,110 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:700");
+
+html, body { font-family: 'Open Sans', sans-serif; }
+.color1 { background-color: rgb(40, 180, 155); }
+.color2 { background-color: rgb( 0, 216, 255); }
+
+header { cursor:default; }
+header > a, header > a:hover, header > a:active, header > a:visited { text-decoration: none; }
+#logo { 
+  font-size: 3em;
+  font-weight: 700;
+  color: #ffffff;
+  display: table; 
+  width: 100%; 
+  padding: 0; 
+  margin-left: -4%;
+}
+#logo > div { 
+  display: table-cell;
+  width: 54%;
+    -webkit-transform: skew(-20deg);
+       -moz-transform: skew(-20deg);
+         -o-transform: skew(-20deg);
+}
+#logo :before, #logo :after { content: ''; clear: both; }
+header .color1 { text-align: right; width: 55%; }
+.rule {
+  background-color: rgb(250, 250, 250);
+  height: 24px;
+  border-top: solid 8px #fff;
+  border-bottom: solid 8px #fff;
+}
+
+#intro-img-wrapper {
+  margin-top: 25px;
+}
+#skills-wrapper, #skill-details {
+  margin-bottom: 25px;
+}
+.btn-skill {
+  color: #fff;
+  margin: 0 5px 8px;
+}
+.btn-skill-type1 {
+  background-color: rgba(231, 76, 60, 0.7);
+  border-color: rgba(231, 76, 60, 0.7);
+}
+.btn-skill-type2 {
+  background-color: rgb(231, 76, 60);
+  border-color: rgb(231, 76, 60);
+}
+.btn-skill-type3 {
+  background-color: rgba(52, 152, 219, 0.7);
+  border-color: rgba(52, 152, 219, 0.7);
+}
+.btn-skill-type4 {
+  background-color: rgba(153, 84, 187, 0.7);
+  border-color: rgba(153, 84, 187, 0.7);
+}
+.btn-skill-type5 {
+  background-color: rgb(153, 84, 187);
+  border-color: rgb(153, 84, 187);
+}
+.btn-skill-type6 {
+  background-color: rgb(243, 156, 18);
+  border-color: rgb(243, 156, 18);
+}
+.btn-skill-type7 {
+  background-color: rgba(243, 156, 18, 0.7);
+  border-color: rgba(243, 156, 18, 0.7);
+}
+.btn-skill-type8 {
+  background-color: rgb(41, 108, 197);
+  border-color: rgb(41, 108, 197);
+}
+.btn-skill-type9 {
+  background-color: rgba(41, 108, 197, 0.7);
+  border-color: rgba(41, 108, 197, 0.7);
+}
+.btn-exp {
+  color: transparent;
+  margin: 0 3px 0 0;
+}
+.btn-exp-nofill {
+  background-color: transparent;
+}
+.btn-exp1 {
+  height: 24px;
+  margin-top: 36px;
+}
+.btn-exp2 {
+  height: 36px;
+  margin-top: 24px;
+}
+.btn-exp3 {
+  height: 48px;
+  margin-top: 12px;
+}
+#exp-details {
+  position: relative;
+}
+#exp-level {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#exp-years {
+  padding: 34px 82px;
+  font-size: 1.4em;
+}

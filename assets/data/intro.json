@@ -1,0 +1,9 @@
+{
+  "title": "My name is Julian Soro",
+  "image": {
+    "url": "assets/img/intro.jpg",
+    "alt": "Julian Soro",
+    "title": "Julian Soro" 
+  },
+  "description": "I am a full-stack web developer. I have experience with several back-end scripting languges, including Python, PHP and Ruby. My strength is creating RESTful API services using MVC frameworks, including Django, Laravel, and Rails, which asynchronously populate front-end applications. On the front-end, I am using Angular.JS heavily, however, I also work with React.js. Please contact me if you have a request regarding these or other technologies."
+}

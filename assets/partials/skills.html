@@ -1,0 +1,30 @@
+<section id="skills-list">
+  <h2>Skills</h2>
+
+  <p>Select a skill</p>
+
+  <div id="skills-wrapper" class="col-xs-12">
+    <a ng-repeat="skill in skills" href="#/skills" class="btn btn-xs btn-skill {{'btn-skill-type' + skill.skillTypeId}}" ng-click="loadSkill(skill.id)">{{skill.name}}</a>
+  </div>
+</section>
+
+<section id="skill-details" ng-class="{hidden:!showSkill}">
+  <h2>Experience with {{showSkill.name || '___'}}</h2>
+
+  <div id="exp-details">
+    <div id="exp-level">
+      <a href="#/skills" class="btn btn-xs btn-exp btn-exp1 {{'btn-skill-type' + showSkill.skillTypeId}}" ng-class="{'btn-exp-nofill':checkExp(1)}"></a>
+      <a href="#/skills" class="btn btn-xs btn-exp btn-exp2 {{'btn-skill-type' + showSkill.skillTypeId}}" ng-class="{'btn-exp-nofill':checkExp(2)}"></a>
+      <a href="#/skills" class="btn btn-xs btn-exp btn-exp3 {{'btn-skill-type' + showSkill.skillTypeId}}" ng-class="{'btn-exp-nofill':checkExp(3)}"></a>
+    </div>
+
+    <div id="exp-years">
+      <strong>{{ currentYear - showSkill.since || '&lt;1' }} year(s)</strong>
+    </div>
+
+    <div id="exp-examples">
+      Check back later for examples
+    </div>
+  </div>
+
+</section>
