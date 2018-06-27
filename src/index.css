@@ -42,6 +42,7 @@ header {
 
 h1.name {
   margin: 0.5em 0;
+  text-transform: lowercase;
 }
 
 pre.title {

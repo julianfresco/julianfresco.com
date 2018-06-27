@@ -9,8 +9,8 @@ class App extends Component {
 
         <header className="header">
           <h1 className="name">
-            julian soro 
-            <span title="🥚 easter egg!" className="easter-egg"> ♥'s oculus</span>
+            Julian Soro
+            <span title="🥚 easter egg!" className="easter-egg"> ♥'s pugs and code.</span>
           </h1>
           <pre className="title">Software Engineer</pre>
         </header>
@@ -35,7 +35,7 @@ class App extends Component {
             When I'm not programming, I like to explore diverse topics--you might 
             find me studying the control problem in Artificial Intelligence, or 
             checking out the latest hardware developments in VR/AR/XR at the VRLA 
-            Conference, or training for a marathon, or even traditional wood-working... 
+            Conference, or training for a marathon, or even traditional woodworking... 
             I'm constantly reading new books and learning new things.
           </p>
           <p>
